@@ -1,0 +1,31 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyd
+
+# Ignore environment-specific files and secrets
+.env
+*.env
+social_network/local_settings.py
+
+# Ignore uploaded media files (if applicable)
+media/
+
+# Ignore log files
+*.log
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore test coverage files
+.coverage
+.coverage.*
+htmlcov/
+
+# Ignore system files
+.DS_Store
+thumbs.db
