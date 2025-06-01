@@ -35,11 +35,6 @@ class Post(models.Model):
         return f'Публикация {self.author.username} от {self.created_at}'
 
 
-# для дополнительного задания
-# class PostImage(models.Model):
-#     ...
-
-
 class Like(models.Model):
     post = models.ForeignKey(
         Post,
